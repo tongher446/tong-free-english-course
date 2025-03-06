@@ -4,10 +4,7 @@ body {
     /* border: lightblue .1rem solid; */
     align-items: center;
     justify-content: center;
-    justify-items: center;
-    width: 700px;
-    
-    
+    justify-items: center;      
 }
 
 .container-main {
