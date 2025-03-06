@@ -2,11 +2,11 @@ body {
     width: 700px;
     height: 840px;
     display: flex;
-    align-items: center;
-    /* border: lightblue .1rem solid; */
+   /* align-items: center;
+    /* border: lightblue .1rem solid; 
     align-items: center;
     justify-content: center;
-    justify-items: center;      
+    justify-items: center;  */    
 }
 
 .container-main {
