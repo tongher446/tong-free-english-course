@@ -1,0 +1,246 @@
+body {
+    display: flex;
+    align-items: center;
+    /* border: lightblue .1rem solid; */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 700px;
+    
+    
+}
+
+.container-main {
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    /* border: 2px solid rgb(255, 0, 0); */
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 79px;
+}
+
+img {
+    height: 34px;
+    width: 34px;
+    size: 2rem;
+    mix-blend-mode: multiply;
+}
+
+.container-title {
+    display: flex;
+    /* border: .2rem solid black; */
+    width: 700px;
+    height: 89px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #D9D9D9;
+}
+
+.header {
+    font-size: 30px;
+    justify-items: center;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    margin: rem;
+    width: 50rem;
+    padding: 0;
+    /* border: solid rgb(250, 14, 14); */
+    position: relative;
+
+
+}
+
+.label {
+    /* position: absolute; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    justify-content: right;
+    justify-items: right;
+    /* border: lightpink 2px solid; */
+}
+.star{
+    width: 70px;
+    height: 78px;
+    /* mix-blend-mode: ; */
+}
+
+.free {
+    /* border: #15ff00 solid 2px; */
+    width: 53px;
+    height: 25px;
+    /* margin: 6px; */
+    /* display: flex; */
+    position: absolute;
+    font-size: 24px;
+    /* top: 0;
+    bottom: 0; */
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.description {
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    color: yellow;
+    -webkit-text-stroke: .7px black;
+    width: 692px;
+    height: 106px;
+    /* border: 1px solid black; */
+}
+
+.container-content {
+    margin: 0;
+    display: flex;
+    width: 700px;
+    /* border: 1px solid rgb(255, 0, 0); */
+
+
+}
+.title-requirements{
+ justify-content: center;
+ display: flex;
+}
+
+.myimage {
+    width:403px;
+    height: 449px;
+    border-radius: 9rem;
+    justify-items: left;
+    align-items: left;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.Requirements {
+    font-size: 32px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    height:370px;
+    width: 290px;
+    margin-left: 1rem;
+}
+
+.apply-link {
+border: 1px solid lightgreen;
+align-items: center;
+justify-content: center;
+height:100px;
+width: 150px;
+display: flex;
+text-align: center;
+background-color: #D9D9D9;
+color:#15ff00;
+-webkit-text-stroke: .3px black;
+border-radius: 15rem;
+font-size: 32px;
+text-decoration: none;
+margin-left: 444px;
+}
+.apply-link:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px red;
+}
+.contact-info{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 700px;
+    height: 79px;
+    background-color: #D9D9D9;
+    margin: 0;
+
+}
+.footer-text{
+    /* border: red solid 1px; */
+    background-color: aqua;
+    width: 4rem;
+   
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.footer-contents{
+    display: flex;
+    padding: 5px;
+}
+.facebook-whatsApp{
+    /* border: #15ff00 solid 1px; */
+    width: 18rem;
+}
+.facebook{
+    /* border: red solid 1px; */
+    display: flex;
+    align-items: center;
+}
+.facebook-link{
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.facebook-link:hover{
+    color: royalblue;
+}
+.whatsApp{
+    /* border: rgb(0, 110, 255) solid 1px; */
+    display: flex;
+    align-items: center;  
+}
+.whatsApp-link{
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.whatsApp-link:hover{
+    color: rgb(27, 168, 57);
+}
+.tiktok-wechat{
+    /* border: red solid 1px; */
+    width: 18rem;
+}
+.tiktok{
+    /* border: #15ff00 solid 1px; */
+    align-items: center;
+    display: flex;
+    
+}
+.tiktok-link{
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.tiktok-link:hover{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: .2px rgb(255, 0, 0);
+}
+.wechat{
+    /* border: black solid 1px; */
+    align-items: center;
+        display: flex;
+}
+.wechat-link{
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.wechat-link:hover{
+    color: #31a327;
+}
+.thank-you{
+    /* border: #15ff00 solid 1px; */
+    background-color: aqua;
+    margin: 0;
+    width: 4rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 24px;
+}
